@@ -29,8 +29,8 @@ def generate_demo_data():
         data.append(
             {
                 "Name": name,
-                "Geschätzte Zeit (MM:SS)": seconds_to_mmss(estimated),
-                "Tatsächliche Zeit (MM:SS)": seconds_to_mmss(actual),
+                "Geschätzte Zeit": seconds_to_mmss(estimated),
+                "Tatsächliche Zeit": seconds_to_mmss(actual),
                 "Differenz (Sekunden)": diff,
             }
         )
