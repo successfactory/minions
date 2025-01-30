@@ -18,7 +18,7 @@ def load_results():
 
 
 def generate_demo_data():
-    names = [f"Spieler {i}" for i in range(1, 21)]
+    names = [f"Spieler {i}" for i in range(1, 3)]
     data = []
     for name in names:
         estimated = random.randint(30, 540)

@@ -20,7 +20,7 @@ if "player" not in st.session_state:
 
 
 with st.form("Eingabeformular"):
-    st.header("Neuen Player")
+    st.header("Neuer Player")
     name = st.text_input("Name:")
     estimated_time = st.text_input("Geschätzte Zeit:", placeholder="z.B. 3:45")
     submit = st.form_submit_button("Los geht's")
